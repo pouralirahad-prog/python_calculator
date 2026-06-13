@@ -25,7 +25,7 @@ def btn_backspace():
     operator= operator[:-1]
     text_input.set(operator)
 
-#نمايش صفحه
+
 operator=' '
 text_input=StringVar()
 cut=Entry(root,font=('arial',20,'bold'),textvariable=text_input,bd=30,fg='blue').grid(columnspan=500)
@@ -39,7 +39,6 @@ cut=Entry(root,font=('arial',20,'bold'),textvariable=text_input,bd=30,fg='blue')
 
 
 
-#تعيين رنگ بک گراند4
 #number button 123...1
 btn_1=Button(root,padx=16,pady=16,bd=9,fg='blue',bg='red',font=('arial',20,'bold'),text='1',command=lambda:btn_click(1))
 btn_2=Button(root,padx=16,pady=16,bd=9,fg='blue',bg='red',font=('arial',20,'bold'),text='2',command=lambda:btn_click(2))
